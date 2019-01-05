@@ -36,17 +36,15 @@
                                     "color": "#FFFFFF",
                                     "fontSize": "6vw",
                                     "fontWeight": "900",
-                                    "position": "absolute",
-                                    "left": "5vw",
-                                    "top": "5vh",
                                     "lineHeight": "1"
                                 },
                                 {
                                     "type": "ScrollView",
+                                    "height": "100vh",
                                     "item": {
                                         "type": "Container",
                                         "width": "100vw",
-                                        "height": "300vh",
+                                        "height": "325vh",
                                         "items": [
                                             {
                                                 "type": "Text",
@@ -62,26 +60,87 @@
                                                 "lineHeight": "1"
                                             },
                                             {
-                                                "type": "Image",
-                                                "source": "https://s3-media3.fl.yelpcdn.com/bphoto/fVb3T1VHfvoYUoVjVb7Hvw/348s.jpg",
-                                                "height": 348,
-                                                "width": 348
+                                                "type": "Container",
+                                                "width": "100vw",
+                                                "height": "348",
+                                                "direction": "row",
+                                                "items": [
+                                                    {
+                                                        "type": "Image",
+                                                        "source": "https://s3-media3.fl.yelpcdn.com/bphoto/fVb3T1VHfvoYUoVjVb7Hvw/348s.jpg",
+                                                        "height": 348,
+                                                        "width": 348
+                                                    },
+                                                    {
+                                                        "type": "Image",
+                                                        "source": "http://www.reachfolk.com/wp-content/uploads/2016/09/650_69_741.jpg",
+                                                        "height": 348,
+                                                        "width": 348
+                                                    },
+                                                    {
+                                                        "type": "Image",
+                                                        "source": "https://i.vimeocdn.com/portrait/7168734_300x300",
+                                                        "height": 348,
+                                                        "width": 348
+                                                    }
+                                                ]
                                             },
                                             {
                                                 "type": "Text",
-                                                "text": "Restaurant 2"
+                                                "text": "Fedora",
+                                                "fontSize": "5vw",
+                                                "lineHeight": "1",
+                                                "color": "#000000"
                                             }, 
-                                            {
-                                                "type": "Image",
-                                                "source": "https://s3-media3.fl.yelpcdn.com/bphoto/fVb3T1VHfvoYUoVjVb7Hvw/348s.jpg",
-                                                "height": 348,
-                                                "width": 348
-                                            },
                                             {
                                                 "type": "Text",
                                                 "text": "Some info about the restaurant",
                                                 "fontSize": "4vw",
                                                 "lineHeight": "1"
+                                            },
+                                            {
+                                                "type": "Image",
+                                                "source": "https://s3-media3.fl.yelpcdn.com/bphoto/fVb3T1VHfvoYUoVjVb7Hvw/348s.jpg",
+                                                "height": 348,
+                                                "width": 348
+                                            },
+                                            {
+                                                "type": "Text",
+                                                "text": "TJs",
+                                                "fontSize": "5vw",
+                                                "lineHeight": "1",
+                                                "color": "#000000"
+                                            }, 
+                                            {
+                                                "type": "Text",
+                                                "text": "Some info about the restaurant",
+                                                "fontSize": "4vw",
+                                                "lineHeight": "1"
+                                            },
+                                            {
+                                                "type": "Image",
+                                                "source": "https://s3-media3.fl.yelpcdn.com/bphoto/fVb3T1VHfvoYUoVjVb7Hvw/348s.jpg",
+                                                "height": 348,
+                                                "width": 348
+                                            },
+                                            {
+                                                "type": "Text",
+                                                "text": "Chuckles",
+                                                "fontSize": "5vw",
+                                                "lineHeight": "1",
+                                                "color": "#000000"
+                                            }, 
+                                            {
+                                                "type": "Text",
+                                                "text": "Some info about the restaurant",
+                                                "fontSize": "4vw",
+                                                "lineHeight": "1"
+                                            },
+                                            {
+                                                "type": "Image",
+                                                "source": "https://s3-media3.fl.yelpcdn.com/bphoto/fVb3T1VHfvoYUoVjVb7Hvw/348s.jpg",
+                                                "height": 348,
+                                                "width": 348
                                             }
                                         ]
                                     }
