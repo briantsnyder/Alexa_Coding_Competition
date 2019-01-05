@@ -46,43 +46,44 @@
                                     "item": {
                                         "type": "Container",
                                         "width": "100vw",
-                                        "height": "100vh",
+                                        "height": "300vh",
                                         "items": [
                                             {
-                                                "type": "Container",
-                                                "width": "100vh",
-                                                "height": "30vh",
-                                                "items": [
-                                                    {
-                                                        "type": "Text",
-                                                        "text": "Amalfi's"
-                                                    },
-                                                    {
-                                                        "type": "Image",
-                                                        "source": "https://s3-media3.fl.yelpcdn.com/bphoto/fVb3T1VHfvoYUoVjVb7Hvw/348s.jpg",
-                                                        "height": 348,
-                                                        "width": 348
-                                                    }
-                                                    ]
+                                                "type": "Text",
+                                                "text": "Amalfi's",
+                                                "fontSize": "5vw",
+                                                "lineHeight": "1",
+                                                "color": "#000000"
                                             },
                                             {
-                                                "type": "Container",
-                                                "width": "100vw",
-                                                "height": "30vh",
-                                                "items": [
-                                                    {
-                                                        "type": "Text",
-                                                        "text": "Restaurant 2"
-                                                    }, 
-                                                    {
-                                                        "type": "Image",
-                                                        "source": "https://s3-media3.fl.yelpcdn.com/bphoto/fVb3T1VHfvoYUoVjVb7Hvw/348s.jpg",
-                                                        "height": 300,
-                                                        "width": 300
-                                                    }
-                                                    ]
+                                                "type": "Text",
+                                                "text": "Some info about the restaurant",
+                                                "fontSize": "4vw",
+                                                "lineHeight": "1"
+                                            },
+                                            {
+                                                "type": "Image",
+                                                "source": "https://s3-media3.fl.yelpcdn.com/bphoto/fVb3T1VHfvoYUoVjVb7Hvw/348s.jpg",
+                                                "height": 348,
+                                                "width": 348
+                                            },
+                                            {
+                                                "type": "Text",
+                                                "text": "Restaurant 2"
+                                            }, 
+                                            {
+                                                "type": "Image",
+                                                "source": "https://s3-media3.fl.yelpcdn.com/bphoto/fVb3T1VHfvoYUoVjVb7Hvw/348s.jpg",
+                                                "height": 348,
+                                                "width": 348
+                                            },
+                                            {
+                                                "type": "Text",
+                                                "text": "Some info about the restaurant",
+                                                "fontSize": "4vw",
+                                                "lineHeight": "1"
                                             }
-                                            ]
+                                        ]
                                     }
                                 }
                             ]
