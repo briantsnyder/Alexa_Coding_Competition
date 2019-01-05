@@ -1,0 +1,58 @@
+{
+    "type": "APL",
+    "version": "1.0",
+    "theme": "dark",
+    "import": [],
+    "resources": [
+        {
+            "colors": {
+                "defaultColor": "#0A1EFF"
+            }
+            }
+            ],
+    "styles": {},
+    "layouts": {},
+    "mainTemplate": {
+        "items": [
+            {
+                "type": "Container",
+                "width": "100vw",
+                "height": "100vh",
+                "items": [
+                    {
+                        "type": "Frame",
+                        "width": "100vw",
+                        "height": "100vh",
+                        "backgroundColor": "#0ADCFF",
+                        "item": {
+                            "type": "Container",
+                            "width": "100vw",
+                            "height": "100vh",
+                            "items": [
+                                {
+                                    "type": "Text",
+                                    "text": "youChoose",
+                                    "color": "#FFFFFF",
+                                    "fontSize": "8vw",
+                                    "fontWeight": "900",
+                                    "position": "absolute",
+                                    "left": "30vw",
+                                    "top": "20vh"
+                                },
+                                {
+                                    "type": "Text",
+                                    "text": "Hungy?",
+                                    "position": "absolute",
+                                    "left": "45vw",
+                                    "top": "35vh"
+                                }
+                            ]
+                                
+                        }
+                            
+                    }
+                ]
+            }
+        ]
+    }
+}
