@@ -1,4 +1,5 @@
 // Page that displays when a user clicks on a restaurant or asks to know more about it
+// Currently hardcoded for Amalfis
 {
     "type": "APL",
     "version": "1.0",
@@ -85,7 +86,26 @@
                                     "left": "35vw",
                                     "top": "40vh",
                                     "lineHeight": 1
+                                },
+                                {
+                                    "type": "Image",
+                                    "source": "https://images.vexels.com/media/users/3/137415/isolated/preview/0e475bb9b17b3fa4f94f31fba1635b8f-telephone-call-icon-logo-by-vexels.png",
+                                    "height": 250,
+                                    "width": 250,
+                                    "position": "absolute",
+                                    "top": "62vh",
+                                    "left": "5vw"
+                                },
+                                {
+                                    "type": "Image",
+                                    "source": "https://pngimage.net/wp-content/uploads/2018/06/website-png-logo-2.png",
+                                    "height": 300,
+                                    "width": 300,
+                                    "position": "absolute",
+                                    "top": "60vh",
+                                    "left": "35vw"
                                 }
+                                
                             ]
                         }
                     }
