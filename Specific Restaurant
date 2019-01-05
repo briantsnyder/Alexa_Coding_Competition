@@ -1,1 +1,96 @@
 // Page that displays when a user clicks on a restaurant or asks to know more about it
+{
+    "type": "APL",
+    "version": "1.0",
+    "theme": "dark",
+    "import": [],
+    "resources": [
+        {
+            "colors": {
+                "defaultColor": "#0A1EFF"
+            }
+        }
+    ],
+    "styles": {},
+    "layouts": {},
+    "mainTemplate": {
+        "items": [
+            {
+                "type": "Container",
+                "width": "100vw",
+                "height": "100vh",
+                "items": [
+                    {
+                        "type": "Frame",
+                        "width": "100vw",
+                        "height": "100vh",
+                        "backgroundColor": "#0ADCFF",
+                        "item": {
+                            "type": "Container",
+                            "width": "100vw",
+                            "height": "100vh",
+                            "items": [
+                                {
+                                    "type": "Text",
+                                    "text": "Amalfis",
+                                    "color": "#FFFFFF",
+                                    "fontSize": "6vw",
+                                    "fontWeight": "900",
+                                    "lineHeight": "1",
+                                    "position": "absolute",
+                                    "left": "5vw",
+                                    "top": "4vh"
+                                },
+                                {
+                                    "type": "Image",
+                                    "source": "https://s3-media3.fl.yelpcdn.com/bphoto/fVb3T1VHfvoYUoVjVb7Hvw/348s.jpg",
+                                    "height": 348,
+                                    "width": 348,
+                                    "position": "absolute",
+                                    "top": "14vh",
+                                    "left": "5vw"
+                                },
+                                {
+                                    "type": "Text",
+                                    "text": "Italian",
+                                    "position": "absolute",
+                                    "top": "15vh",
+                                    "left": "35vw"
+                                },
+                                {
+                                    "type": "Text",
+                                    "text": "Yeehaw Junction, Atlantis",
+                                    "position": "absolute",
+                                    "left": "35vw",
+                                    "top": "20vh"
+                                },
+                                {
+                                    "type": "Text",
+                                    "text": "(555) 555-5555",
+                                    "position": "absolute",
+                                    "left": "35vw",
+                                    "top": "25vh"
+                                },
+                                {
+                                    "type": "Text",
+                                    "text": "$$$",
+                                    "position": "absolute",
+                                    "left": "35vw",
+                                    "top": "30vh"
+                                },
+                                {
+                                    "type": "Text",
+                                    "text": "'When I first had Amalfis I was like OMG, this is the s***!!! 10/10 without a doubt.",
+                                    "position": "absolute",
+                                    "left": "35vw",
+                                    "top": "40vh",
+                                    "lineHeight": 1
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}
