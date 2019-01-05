@@ -1,1 +1,95 @@
 // Page that shows a scrollable list of all possible restaurants
+{
+    "type": "APL",
+    "version": "1.0",
+    "theme": "dark",
+    "import": [],
+    "resources": [
+        {
+            "colors": {
+                "defaultColor": "#0A1EFF"
+            }
+            }
+            ],
+    "styles": {},
+    "layouts": {},
+    "mainTemplate": {
+        "items": [
+            {
+                "type": "Container",
+                "width": "100vw",
+                "height": "100vh",
+                "items": [
+                    {
+                        "type": "Frame",
+                        "width": "100vw",
+                        "height": "100vh",
+                        "backgroundColor": "#0ADCFF",
+                        "item": {
+                            "type": "Container",
+                            "width": "100vw",
+                            "height": "100vh",
+                            "items": [
+                                {
+                                    "type": "Text",
+                                    "text": "Here are some Restaurants I found",
+                                    "color": "#FFFFFF",
+                                    "fontSize": "6vw",
+                                    "fontWeight": "900",
+                                    "position": "absolute",
+                                    "left": "5vw",
+                                    "top": "5vh",
+                                    "lineHeight": "1"
+                                },
+                                {
+                                    "type": "ScrollView",
+                                    "item": {
+                                        "type": "Container",
+                                        "width": "100vw",
+                                        "height": "100vh",
+                                        "items": [
+                                            {
+                                                "type": "Container",
+                                                "width": "100vh",
+                                                "height": "30vh",
+                                                "items": [
+                                                    {
+                                                        "type": "Text",
+                                                        "text": "Amalfi's"
+                                                    },
+                                                    {
+                                                        "type": "Image",
+                                                        "source": "https://s3-media3.fl.yelpcdn.com/bphoto/fVb3T1VHfvoYUoVjVb7Hvw/348s.jpg",
+                                                        "height": 348,
+                                                        "width": 348
+                                                    }
+                                                    ]
+                                            },
+                                            {
+                                                "type": "Container",
+                                                "width": "100vw",
+                                                "height": "30vh",
+                                                "items": [
+                                                    {
+                                                        "type": "Text",
+                                                        "text": "Restaurant 2"
+                                                    }, 
+                                                    {
+                                                        "type": "Image",
+                                                        "source": "https://s3-media3.fl.yelpcdn.com/bphoto/fVb3T1VHfvoYUoVjVb7Hvw/348s.jpg",
+                                                        "height": 300,
+                                                        "width": 300
+                                                    }
+                                                    ]
+                                            }
+                                            ]
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}
