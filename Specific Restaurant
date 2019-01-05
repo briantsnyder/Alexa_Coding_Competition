@@ -55,55 +55,55 @@
                                     "type": "Text",
                                     "text": "Italian",
                                     "position": "absolute",
-                                    "top": "15vh",
-                                    "left": "35vw"
+                                    "top": "12vh",
+                                    "left": "40vw"
                                 },
                                 {
                                     "type": "Text",
                                     "text": "Yeehaw Junction, Atlantis",
                                     "position": "absolute",
-                                    "left": "35vw",
-                                    "top": "20vh"
+                                    "left": "40vw",
+                                    "top": "18vh"
                                 },
                                 {
                                     "type": "Text",
                                     "text": "(555) 555-5555",
                                     "position": "absolute",
-                                    "left": "35vw",
-                                    "top": "25vh"
+                                    "left": "40vw",
+                                    "top": "24vh"
                                 },
                                 {
                                     "type": "Text",
                                     "text": "$$$",
                                     "position": "absolute",
-                                    "left": "35vw",
-                                    "top": "30vh"
+                                    "left": "40vw",
+                                    "top": "32vh"
                                 },
                                 {
                                     "type": "Text",
                                     "text": "'When I first had Amalfis I was like OMG, this is the s***!!! 10/10 without a doubt.",
                                     "position": "absolute",
-                                    "left": "35vw",
-                                    "top": "40vh",
+                                    "left": "40vw",
+                                    "top": "42vh",
                                     "lineHeight": 1
                                 },
                                 {
                                     "type": "Image",
                                     "source": "https://images.vexels.com/media/users/3/137415/isolated/preview/0e475bb9b17b3fa4f94f31fba1635b8f-telephone-call-icon-logo-by-vexels.png",
-                                    "height": 250,
-                                    "width": 250,
+                                    "height": 200,
+                                    "width": 200,
                                     "position": "absolute",
-                                    "top": "62vh",
-                                    "left": "5vw"
+                                    "top": "65vh",
+                                    "left": "40vw"
                                 },
                                 {
                                     "type": "Image",
                                     "source": "https://pngimage.net/wp-content/uploads/2018/06/website-png-logo-2.png",
-                                    "height": 300,
-                                    "width": 300,
+                                    "height": 200,
+                                    "width": 200,
                                     "position": "absolute",
-                                    "top": "60vh",
-                                    "left": "35vw"
+                                    "top": "65vh",
+                                    "left": "70vw"
                                 }
                                 
                             ]
