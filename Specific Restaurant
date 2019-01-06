@@ -281,6 +281,60 @@
                                             "left": "70vw"
                                         }
                                     ]
+                                },
+                                {
+                                    "when": "${@viewportProfile == @hubRoundSmall}",
+                                    "type": "Container",
+                                    "width": "100vw",
+                                    "height": "100vh",
+                                    "items": [
+                                        {
+                                            "type": "Text",
+                                            "text": "Amalfis",
+                                            "textAlign": "center"
+                                        },
+                                        {
+                                            "type": "Image",
+                                            "source": "https://s3-media3.fl.yelpcdn.com/bphoto/fVb3T1VHfvoYUoVjVb7Hvw/348s.jpg",
+                                            "height": 200,
+                                            "width": 200,
+                                            "position": "absolute",
+                                            "left": "28vw",
+                                            "top": "10vh"
+                                        },
+                                        {
+                                            "type": "Text",
+                                            "text": "Italian",
+                                            "position": "absolute",
+                                            "left": "38vw",
+                                            "top": "51vh"
+                                        },
+                                        {
+                                            "type": "Text",
+                                            "text": "$$$",
+                                            "position": "absolute",
+                                            "left": "42vw",
+                                            "top": "59vh"
+                                        },
+                                        {
+                                            "type": "Image",
+                                            "source": "https://images.vexels.com/media/users/3/137415/isolated/preview/0e475bb9b17b3fa4f94f31fba1635b8f-telephone-call-icon-logo-by-vexels.png",
+                                            "height": 100,
+                                            "width": 100,
+                                            "position": "absolute",
+                                            "left": "20vw",
+                                            "top": "70vh"
+                                        },
+                                        {
+                                            "type": "Image",
+                                            "source": "https://pngimage.net/wp-content/uploads/2018/06/website-png-logo-2.png",
+                                            "height": 100,
+                                            "width": 100,
+                                            "position": "absolute",
+                                            "left": "55vw",
+                                            "top": "70vh"
+                                        }
+                                    ]
                                 }
                             ]
                         }
