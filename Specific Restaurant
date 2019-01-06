@@ -1,5 +1,5 @@
 // Page that displays when a user clicks on a restaurant or asks to know more about it
-// Currently hardcoded for Amalfis, also currently meant to fit Medium Screen
+// Acomodates all screen sizes now, but only has hardcoded Amalfis data
 {
     "type": "APL",
     "version": "1.0",
