@@ -1,0 +1,12 @@
+{
+  "datasources": {
+    "restaurantInfo": {
+      "type": "object",
+      "properties": {
+          "title": "Amalfis",
+          "address": "Yeehaw Junction, Atlantis",
+          "phone": "(555) 555-5555"
+      }
+    }
+  }
+}
